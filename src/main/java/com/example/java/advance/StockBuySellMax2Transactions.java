@@ -7,7 +7,11 @@ import java.util.stream.IntStream;
 public class StockBuySellMax2Transactions {
 	public static void main(String[] args) {
 		int[] prices = {90, 80, 70, 60, 50, 100, 40, 200, 10, 100};
-		List<Integer> transactions = new ArrayList<>();
+		int startPrice=0;
+		int finalPrice=0;
+		
+
+List<Integer> transactions = new ArrayList<>();
 		
 		int buyPrice=0;
 		int profit=0;
@@ -38,8 +42,5 @@ public class StockBuySellMax2Transactions {
 		System.out.println(transactions);
 		System.out.println(prof);
 		
-		
-		
 	}
-
 }

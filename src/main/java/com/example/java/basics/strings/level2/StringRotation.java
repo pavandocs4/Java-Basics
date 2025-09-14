@@ -23,7 +23,8 @@ public class StringRotation {
 				.mapToObj(i -> str.length()-n+i < str.length() ? str.charAt(str.length()-n+i) : str.charAt(i-n))
 				.map( j-> j.toString())
 				.collect(Collectors.joining());
-				//.reduce("", (a,b) -> );
+				//.̥("", (a,b) -> );
+		
 		
 		return str1.equals(str2);
 		// cdefgab   abcdefg

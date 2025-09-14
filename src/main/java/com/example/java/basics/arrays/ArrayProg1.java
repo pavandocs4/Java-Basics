@@ -63,7 +63,7 @@ public class ArrayProg1 {
 		System.out.println("distinct elements:" + k);
 		List<Map> op = Arrays.asList();
 		Map<Integer, Integer> mpp = new HashMap<>();
-
+		
 		int left = 0, res = 0;
 
 		for (int i = 0; i < nums.length; i++) {
