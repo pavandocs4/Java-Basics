@@ -2,6 +2,7 @@ package com.example.java.advance.java8concepts;
 
 import java.time.LocalDate;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 
 public class NewLocalDateTimeAPITest {
@@ -15,5 +16,8 @@ public class NewLocalDateTimeAPITest {
 			//dayList.add(date.getDayOfMonth());
 		}
 				
+	// using a Local time or date to print the current time
+		
+	
 	}
 }
